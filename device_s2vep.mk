@@ -10,8 +10,8 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Init files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/fstab.capri_ss_s2vep:root/fstab.capri_ss_s2vep \
-    $(LOCAL_PATH)/init.bcm281x5.usb.rc:root/init.bcm281x5.usb.rc \
+    $(LOCAL_PATH)/fstab.hawaii_ss_logan:root/fstab.hawaii_ss_logan \
+    $(LOCAL_PATH)/init.bcm2166x.usb.rc:root/init.bcm2166x.usb.rc \
     $(LOCAL_PATH)/init.capri_ss_s2vep.rc:root/init.capri_ss_s2vep.rc \
     $(LOCAL_PATH)/init.log.rc:root/init.log.rc \
     $(LOCAL_PATH)/ueventd.capri_ss_s2vep.rc:root/ueventd.capri_ss_s2vep.rc \
