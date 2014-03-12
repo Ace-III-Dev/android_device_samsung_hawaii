@@ -12,7 +12,7 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.hawaii_ss_logan:root/fstab.hawaii_ss_logan \
     $(LOCAL_PATH)/init.bcm2166x.usb.rc:root/init.bcm2166x.usb.rc \
-    $(LOCAL_PATH)/init.capri_ss_s2vep.rc:root/init.capri_ss_s2vep.rc \
+    $(LOCAL_PATH)/init.hawaii_ss_logan.rc:root/init.hawaii_ss_logan.rc \
     $(LOCAL_PATH)/init.log.rc:root/init.log.rc \
     $(LOCAL_PATH)/ueventd.capri_ss_s2vep.rc:root/ueventd.capri_ss_s2vep.rc \
     $(LOCAL_PATH)/vold.fstab:system/etc/vold.fstab \
