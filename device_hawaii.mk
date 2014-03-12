@@ -1,8 +1,8 @@
-$(call inherit-product-if-exists, vendor/samsung/s2vep/s2vep-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/hawaii/hawaii-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/samsung/s2vep/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/hawaii/overlay
 
-LOCAL_PATH := device/samsung/s2vep
+LOCAL_PATH := device/samsung/hawaii
 
 # Use high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal mdpi hdpi
@@ -14,7 +14,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.bcm2166x.usb.rc:root/init.bcm2166x.usb.rc \
     $(LOCAL_PATH)/init.hawaii_ss_logan.rc:root/init.hawaii_ss_logan.rc \
     $(LOCAL_PATH)/init.log.rc:root/init.log.rc \
-    $(LOCAL_PATH)/ueventd.capri_ss_s2vep.rc:root/ueventd.capri_ss_s2vep.rc \
+    $(LOCAL_PATH)/ueventd.hawaii_ss_logan.rc:root/ueventd.hawaii_ss_logan.rc \
     $(LOCAL_PATH)/vold.fstab:system/etc/vold.fstab \
     $(LOCAL_PATH)/init.bt.rc:root/init.bt.rc \
     $(LOCAL_PATH)/lpm.rc:root/lpm.rc
@@ -61,5 +61,5 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, build/target/product/generic_no_telephony.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_s2vep
-PRODUCT_DEVICE := s2vep
+PRODUCT_NAME := full_hawaii
+PRODUCT_DEVICE := hawaii
